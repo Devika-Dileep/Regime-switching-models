@@ -24,3 +24,4 @@ reducedmodel_2 <- lm(Volatility ~ `Investor sentiment` + `Search Volume Index`, 
 summary(reducedmodel_2)
 lrtest(fullmodel_2, reducedmodel_2)
 stargazer(fullmodel_2, reducedmodel_2, title = "Results", type = "text", align = TRUE)
+# added comments for testing
